@@ -101,8 +101,6 @@ avstandsanalys_tva_punkttabeller_ett_natverk(
 ## Error Handling
 The script uses `tryCatch` for robust error handling:
 - Errors trigger database rollback to prevent corruption.
-- Issues are logged for debugging.
-- Logs can be stored in a dedicated file for monitoring.
 
 ## Future Improvements
 - Automate API data fetching for transit information.
